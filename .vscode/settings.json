@@ -1,0 +1,29 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "[css]": {
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[yaml]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ]
+}
